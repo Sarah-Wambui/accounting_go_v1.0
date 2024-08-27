@@ -94,7 +94,7 @@
                                     <li class="me-2 wow animate__zoomIn" data-wow-delay=".2s"><a href="{{ isset($pageData->facebook_link) ? $pageData->facebook_link : '' }}" class="text-decoration-none"><i class="bi bi-facebook ri-2x"></i></a></li>
                                     <li class="me-2 wow animate__zoomIn" data-wow-delay=".4s"><a href="{{ isset($pageData->linkedin_link) ? $pageData->linkedin_link : '' }}" class="text-decoration-none"><i class="bi bi-linkedin ri-2x"></i></a></li>
                                     <li class="me-2 wow animate__zoomIn" data-wow-delay=".6s"><a href="{{ isset($pageData->twitter_link) ? $pageData->twitter_link : '' }}" class="text-decoration-none"><i class="bi bi-twitter ri-2x"></i></a></li>
-                                    <li class="me-2 wow animate__zoomIn" data-wow-delay=".8s"><a href="{{ isset($pageData->youtube_link) ? $pageData->youtube_link : '' }}" class="text-decoration-none"><i class="bi bi-youtube ri-2x"></i></a></li>
+                                    {{-- <li class="me-2 wow animate__zoomIn" data-wow-delay=".8s"><a href="{{ isset($pageData->youtube_link) ? $pageData->youtube_link : '' }}" class="text-decoration-none"><i class="bi bi-youtube ri-2x"></i></a></li> --}}
                                 </ul>
                             </div>
                         </div>

@@ -90,7 +90,7 @@
                 <div class="card team rounded shadow-lg h-100">
                     <div class="card-body d-flex align-items-center flex-column justify-content-center text-center p-5">
                         <picture class="avatar">
-                            <img class="img-fluid rounded-circle" src="{{ asset('public/uploads/media/'.$team->image) }}" alt="">
+                            <img class="img-fluid rounded-circle" src="{{ asset('uploads/media/'.$team->image) }}" alt="">
                         </picture>
                         <p class="lead fw-bolder mb-0 mt-4 text-dark">{{ $team->translation->name }}</p>
                         <p class="text-primary small fw-bold mb-4">{{ $team->translation->role }}</p>

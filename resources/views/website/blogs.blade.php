@@ -35,7 +35,7 @@
             @foreach($blog_posts as $post)
             <div class="col-lg-4 mb-5">
                 <div class="latest-post h-100 wow animate__zoomIn" data-wow-delay=".2s">
-                    <img class="card-img-top" src="{{ asset('public/uploads/media/'.$post->image) }}" alt="{{ $post->translation->title }}" />
+                    <img class="card-img-top" src="{{ asset('uploads/media/'.$post->image) }}" alt="{{ $post->translation->title }}" />
                     <div class="post-body p-4">
                         <p class="post-date">{{ $post->created_at }}</p>
                         <a class="text-decoration-none" href="{{ url('/blogs/'.$post->slug) }}">
